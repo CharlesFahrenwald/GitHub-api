@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <meta charset= "UTF-8" />
+        <meta name="viewport" content= "width=device=width", intial-scale=1,/>
+        <meta name ="description" content="Web api assignment"/>
+        <title>GitHub API</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body> 
+        <nav id ="app-title" class="navbar">
+            <a class="navbar-brand" href=#>GitHub APi</a></nav>
+            <main role="main" class="container">
+                <section class = "app container">
+                    <form id="search-form">
+                        <h1>Search for Github user</h1>
+                        <p>Enter a ussername to find a profile</p>
+                        <input type= "text" id="listen-user-input" class="form-control" placeholder="Enter a username"/>
+                        <input type="submit" id="click-submit" class="btn-primary" value="Submit"/>
+                    </form>
+                </section>
+                <section class="display-results-container hidden">
+                    <div id="display-profile"></div>
+                </section>
+            </main>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="script.js"></script>
+    </body>
+</hmtl>
